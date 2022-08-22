@@ -1,8 +1,8 @@
-# no
+# Generate A ReadMe
 
 ## Description 
 
-no
+This project allows a user to create a ReadMe after following a few quick and simple prompts given after running the file in your integrated terminal.
 
 ## Table of Contents
 
@@ -18,15 +18,15 @@ no
 
 ## Installation 
 
-no
+First you must download and clone this Repo from github onto your computer. Next you will unzip the files and place them into a folder in your project directory. Then you will need to install the dependencies using the command: Npm I
 
 ## Usage
 
-no
+Please follow the given instructions: 1. Download and clone repo into a given directory on your system. 2. Open the index.js file with your integrated terminal. 3. Use the command: Npm I 4. Follow the prompts.
 
 ## Credits
 
-no
+Mark Fulton was a huge help in completing this project!
 
 ## License
 
@@ -34,7 +34,7 @@ no
 
 ## Contact
 
-[GitHub](https://github.com/no)
+[GitHub](https://github.com/thenoahac)
 
-[Email](mailto:no)
+[Email](mailto:nole2kgames@gmail.com)
 
