@@ -53,7 +53,7 @@ ${renderLicenseSection(data.License)}
 
 [GitHub](https://github.com/${data.GitHub})
 
-[Email](mailto:${data.email})
+[Email](mailto:${data.Email})
 
 `;
 }
