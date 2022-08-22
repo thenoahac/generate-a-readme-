@@ -6,48 +6,48 @@
 //Creates an array of questions for the user to input into their readme
 inquirer.prompt([
     {
-        name: "title",
+        name: "Title",
         message: "What is your project titled?",
         type: "input"
     },
     {
-        name: "description",
+        name: "Description",
         message: "Give a short description of your work!",
         type: "input"
     },
     {
-        name: "installation",
+        name: "Installation",
         message: "Provide an explanation of the steps required to install your project.",
         type: "input"
     },
     {
-        name: "usage",
+        name: "Usage",
         message: "Write instructions for use. Include deployed screenshots in this section as well.",
         type: "input"
     },
     {
-        name: "credits",
+        name: "Credits",
         message: "List collaborators and tutorials followed!",
         type: "input"
     },
     {
-        name: "test",
+        name: "Test",
         message: "Fill in test instructions.",
         type: "input"
     },
     {
-        name: "license",
+        name: "License",
         message:"Which is your preferred license?",
         type:"list",
         choices:["MIT", "Apache 2.0", "Boost", "none"]
     },
     {
-        name: "github",
+        name: "GitHub",
         message: "What is your Github username?",
         type: "input"
     },
     {
-        name: "email",
+        name: "Email",
         message: "What is your email address?",
         type: "input"
     }
