@@ -1,12 +1,12 @@
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (license=="MIT"){
+function renderLicenseSection(License) {
+  if (License=="MIT"){
     return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
-  } else if (license=="Apache 2.0"){
+  } else if (License=="Apache 2.0"){
     return "![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)"
-  } else if (license=="Boost"){
+  } else if (License=="Boost"){
     return "![License: Boost](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)"
   } else {
     return ""
@@ -15,11 +15,11 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.Title}
 
 ## Description 
 
-${data.description}
+${data.Description}
 
 ## Table of Contents
 
@@ -35,23 +35,23 @@ ${data.description}
 
 ## Installation 
 
-${data.installation}
+${data.Installation}
 
 ## Usage
 
-${data.usage}
+${data.Usage}
 
 ## Credits
 
-${data.credits}
+${data.Credits}
 
 ## License
 
-${renderLicenseSection(data.license)}
+${renderLicenseSection(data.License)}
 
 ## Contact
 
-[GitHub](https://github.com/${data.github})
+[GitHub](https://github.com/${data.GitHub})
 
 [Email](mailto:${data.email})
 
